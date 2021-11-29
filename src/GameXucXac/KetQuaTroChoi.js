@@ -19,7 +19,7 @@ class KetQuaTroChoi extends Component {
                     Tổng số bàn chơi: <span className="text-primary">{soBanChoi}</span>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 col-md-12 col-lg-6">
                         <button className="btn mt-5 bg-success" onClick={() => {
                             const action = {
                                 type: 'PLAY_GAME'
@@ -29,7 +29,7 @@ class KetQuaTroChoi extends Component {
                             <div className="display-4">Play game</div>
                         </button>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-md-12 col-lg-6">
                         <button className="btn mt-5 bg-primary" onClick={() => {
                             const action = {
                                 type: 'RESET_GAME'

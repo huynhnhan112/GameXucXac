@@ -20,7 +20,7 @@ class XucXac extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-12 col-md-3 text-center">
                         <button className="btn btn-danger" onClick={()=>{
                             const action = {
                                 type: 'DAT_CUOC',
@@ -33,7 +33,7 @@ class XucXac extends Component {
                             </span>
                         </button>
                     </div>
-                    <div className="col-6 text-center mt-3">
+                    <div className="col-12 col-md-6 text-center mt-3">
                         <img src={mangXucXac[0].hinhAnh} alt="xucxac" width={50} />
                         <img src={mangXucXac[1].hinhAnh} alt="xucxac" width={50} />
                         <img src={mangXucXac[2].hinhAnh} alt="xucxac" width={50} />
@@ -42,7 +42,7 @@ class XucXac extends Component {
                             {this.renderKetQua()}
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-md-3 text-center">
                         <button className="btn bg-dark text-white" onClick={()=>{
                             const action = {
                                 type: 'DAT_CUOC',
